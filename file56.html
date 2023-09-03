@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
+    <link rel="stylesheet" href="file56.css">
 </head>
 <body>
     
@@ -21,16 +22,16 @@
                         </div>     
                         <div class="card-body">
                             <div class="input task d-flex">
-                                <input type="text" class="form-control mx-2" placeholder="Add a task...">
+                                <input type="text" id="itemadd" class="form-control mx-2" onclick="newItem()" placeholder="Add a task...">
                                 <button class="btn btn-secondary">Add</button>
                             </div>
                             <div class="List mt-3">
                                 
-                                    <ol class="">
-                                        <li>Eating</li>                                        
+                                    <ul class="" id="myUl">
+                                        <li class="checked">Eating</li>                                        
                                         <li>Reading</li>                                        
                                         <li>Coding</li>                                        
-                                    </ol>
+                                    </ul>
                                 </div>
                             </div>
                         </div>           
