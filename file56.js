@@ -36,7 +36,7 @@ function newItem(){
     else{
         document.getElementById("myUl").appendChild(li);
     }
-    document.getElementById(itemadd).value = "";
+    document.getElementById("itemadd").value = "";
     var span = document.createElement("span");
     var text = document.createTextNode("x");
     span.className = "close";
